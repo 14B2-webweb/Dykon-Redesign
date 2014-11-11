@@ -11,7 +11,7 @@
 			<?php include 'includes/menu_inc.php'; ?>
 		</header>
 		<section>
-			
+			<h1>Herro Wurld</h1>
 		</section>
 		<footer>
 		</footer>
