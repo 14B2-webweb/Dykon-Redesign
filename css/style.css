@@ -113,7 +113,9 @@ margin: auto;
 }
 
 .footerJobLink {
-float: right;	
+float: right;
+}
+
 /*-------------------------------
 
 MENU MENU MENU MENU MENU MENU
@@ -179,5 +181,5 @@ MENU MENU MENU MENU MENU MENU
 }
 
 .top-menu-4	{
-	border-right: solid 1px #999;
+	border-right: solid 1px #999999;
 }

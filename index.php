@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Dykon index med imageslider</title>
-    <meta charset="utf-8"
+    <meta charset="utf-8">
 	<link href="css/reset.css" type="text/css" rel="stylesheet">
 	<link href="plugins/slider/css/slider.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" type="text/css" rel="stylesheet">
