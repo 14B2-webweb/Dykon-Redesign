@@ -1,13 +1,17 @@
+header	{
+	text-align: center;
+}
+
 body {
-	background-color:#999;
+	background-color:#fff;
 	color:#111;
 }
 a {
-	color: #f6f;
+	color: #000;
 	text-decoration:none;
 }
 a:hover {
-	color:#0f0;
+	color:#666;
 }
 h1 {
 	font-size:3em;
@@ -58,4 +62,71 @@ h6 {
 	color:#f00;
 	margin:0;
 	padding:0;
+}
+/*-------------------------------
+
+MENU MENU MENU MENU MENU MENU
+
+-------------------------------*/
+
+
+.menu-main {
+	width:1000px;
+	position:relative;
+	margin: auto;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+}
+.menu-main ul {
+	
+} 
+.menu-main ul li {
+	float: left;
+	position:relative;
+	width:25%;
+	box-sizing:border-box;
+	padding: 10px 0px 10px 0px;
+	border-left: solid 1px #999;
+} 
+
+.menu-main ul li nav {
+	display:none;
+	position:absolute;
+	z-index:500;
+	width:1000px;
+	background-color: #999;
+}
+.menu-main ul li:hover nav {
+	display:block;
+	background-color:#999;
+	height:auto;
+	width: 1000px;
+	Margin: auto;
+	top: 38px;
+} 
+.menu-main ul li nav ul li {
+	display:inline-block;
+	float: left;
+	position:relative;
+	border-style: none;
+	padding: 6px 50px 6px 50px;
+}
+.menu-sub {
+	
+}
+.submenu-1 {
+	left:-0px;
+}
+.submenu-2 {
+	left:-250px;
+}
+.submenu-3 {
+	left:-500px;
+}
+.submenu-4 {
+	left:-750px;
+}
+
+.top-menu-4	{
+	border-right: solid 1px #999;
 }
