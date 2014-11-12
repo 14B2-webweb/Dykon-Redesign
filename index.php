@@ -36,22 +36,19 @@
         <a style="display: none" href="http://www.jssor.com">javascript</a>
     </div>
     <!-- Jssor Slider End -->
-</section>
 
 
-<article class="forsidetekst"
-<h1>Velkommen til Dykon</h1>
-<h3>Dykon A/S er Nordens førende producent af naturfyldsdyner og puder.<br> 
-Vi producerer dyner og puder af høj kvalitet, som vi leverer til vores partnere.</h3>
-</article>
 
-<img class="aarets" src="images/aarets-virksomhed-2013.jpg">
+	<article class="forsidetekst"
+	<h1>Velkommen til Dykon</h1>
+	<h3>Dykon A/S er Nordens førende producent af naturfyldsdyner og puder.<br> 
+	Vi producerer dyner og puder af høj kvalitet, som vi leverer til vores partnere.</h3>
+	</article>
+
+	<img class="aarets" src="images/aarets-virksomhed-2013.jpg">
     
-		
-        
-<footer>
-        <?php include 'includes/footer.php'; ?>
-</footer>
+	</section>		
+		<?php include 'includes/footer.php'; ?>
 	</main>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="plugins/slider/js/jssor.js"></script>

@@ -73,6 +73,20 @@ p {
 	font-family:Arial, Helvetica, sans-serif;
 }
 
+main {
+	width:1000px;
+	margin:0 auto 0 auto;
+}
+@media screen and (max-width: 1050px){
+	main{
+		width:100%;
+	}
+}
+
+/**************************/
+/****** IMAGE SLIDER ******/
+/**************************/
+
 /* Kode til "nearby-image-partial-visible-slider" på forsiden (imageslideren er fra Github */
 #slider1_container { 
 	position:relative; 
@@ -124,7 +138,7 @@ MENU MENU MENU MENU MENU MENU
 
 
 .menu-main {
-	width:1000px;
+	width:100%;
 	position:relative;
 	margin: auto;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -153,7 +167,7 @@ MENU MENU MENU MENU MENU MENU
 	display:block;
 	background-color:#999;
 	height:auto;
-	width: 1000px;
+	width: 400%;
 	Margin: auto;
 	top: 38px;
 } 
@@ -168,16 +182,16 @@ MENU MENU MENU MENU MENU MENU
 	
 }
 .submenu-1 {
-	left:-0px;
+	left:-0%;
 }
 .submenu-2 {
-	left:-250px;
+	left:-100%;
 }
 .submenu-3 {
-	left:-500px;
+	left:-200%;
 }
 .submenu-4 {
-	left:-750px;
+	left:-300%;
 }
 
 .top-menu-4	{
