@@ -1,9 +1,7 @@
 <nav class="menu-main">
 	<ul>
-<<<<<<< HEAD
 		<li><a href="contact.php">Link 1</a></li>
 		<li><a href="#">Link 1</a></li>
-=======
 		<li class="top-menu-1"><a href="#">Partnere</a>
         	<nav class="submenu-1">
 				<ul class="menu-sub">
@@ -40,7 +38,6 @@
 				</ul>
 			</nav>
         </li>
->>>>>>> origin/mark
 	</ul>
 </nav>
  
