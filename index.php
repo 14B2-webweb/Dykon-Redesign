@@ -1,19 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Dykon index med imageslider</title>
-    <meta charset="utf-8">
-	<link href="css/reset.css" type="text/css" rel="stylesheet">
+<?php include 'includes/head_inc.php'; ?>
+	<!-- INSERT PLUGIN CSS FILES HERE -->
 	<link href="plugins/slider/css/slider.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" type="text/css" rel="stylesheet">
-</head>
-<body>
-	<main>
-		<header>
-			<?php include 'includes/menu_inc.php'; ?>
-		</header>
-		<section>
-        
+	<!---------------------------------->
+	
+	<title>Dykon index med imageslider</title><!-- Set page title -->
+<?php include 'includes/header_inc.php'; ?>
+
+	<!------------------------------>
+	<!-- INSERT PAGE CONTENT HERE -->
+	<!------------------------------>
+	<section>
 <!-- Kode fra Github til nearby-image-partial-visible-slider -->	
     <!-- Jssor Slider Begin -->
     <!-- You can move inline styles to css file or css block. -->
@@ -46,14 +42,13 @@
 	</article>
 
 	<img class="aarets" src="images/aarets-virksomhed-2013.jpg">
-    
-	</section>		
-		<?php include 'includes/footer.php'; ?>
-	</main>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	</section>
+ <?php include 'includes/footer.php'; ?>
+	<!-- INSERT PLUGIN JAVASCRIPT HERE -->
     <script type="text/javascript" src="plugins/slider/js/jssor.js"></script>
     <script type="text/javascript" src="plugins/slider/js/jssor.slider.js"></script>
     <script type="text/javascript" src="plugins/slider/js/jssor.slider.run.js"></script>
+	<!----------------------------------->
 	<script src="js/script.js" type="text/javascript"></script>
 </body>
 </html>

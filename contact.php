@@ -1,30 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Boilerplate</title>
-	<link href="css/reset.css" type="text/css" rel="stylesheet">
-	<link href="css/style.css" type="text/css" rel="stylesheet">
+<?php include 'includes/head_inc.php'; ?>
+	<!-- INSERT PLUGIN CSS FILES HERE -->
+	<link href="plugins/slider/css/slider.css" rel="stylesheet" type="text/css">
+	<!---------------------------------->
+	
+	<title>DYKON | Kontakt</title><!-- Set page title -->
+<?php include 'includes/header_inc.php'; ?>
+	<!------------------------------>
+	<!-- INSERT PAGE CONTENT HERE -->
+	<!------------------------------>
 
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script>
-      function initialize() {
-        var mapCanvas = document.getElementById('map_canvas');
-        var mapOptions = {
-          center: new google.maps.LatLng(55.487064, 9.292209),
-          zoom: 15,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
-        var map = new google.maps.Map(mapCanvas, mapOptions)
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
-</head>
-<body>
-	<main>
-		<header>
-			<?php include 'includes/menu_inc.php'; ?>
-		</header>
-		<section class="contact">
+	<section class="contact">
 			<h1>Kontakt side</h1>
 			
             
@@ -85,13 +70,23 @@
             <br>
             <div id="map_canvas"></div>
             </section>
-		</section>
-
-		<footer>
-		</footer>
-	</main>
-	
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	</section
+ <?php include 'includes/footer.php'; ?>
+	<!-- INSERT PLUGIN JAVASCRIPT HERE -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map_canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(55.487064, 9.292209),
+          zoom: 15,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+	<!----------------------------------->
 	<script src="js/script.js" type="text/javascript"></script>
 </body>
 </html>
