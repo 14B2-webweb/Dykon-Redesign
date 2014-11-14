@@ -1,11 +1,15 @@
 			<nav class="menu-main">
 				<ul>
-					<li class="top-menu-1"><a href="#">Partnere</a>
+					<li class="top-menu-1"><a href="partnere.php">Partnere</a>
 						<nav class="submenu-1">
 							<ul class="menu-sub">
-								<li><a href="#">Partnere</a></li>
-								<li><a href="#">Kontakt</a></li>
-								<li><a href="#">Nyheder</a></li>
+								<li><a href="#">Ringsted Dun</a></li>
+								<li><a href="#">Flora Danica</a></li>
+								<li><a href="#">Danica</a></li>
+                                <li><a href="#">Sirius Collection</a></li>
+                                <li><a href="#">Egmo Dun</a></li>
+                                <li><a href="#">Bergen Dun</a></li>
+                                <li><a href="#">Private Label</a></li>
 							</ul>
 						</nav>
 					</li>
