@@ -34,7 +34,7 @@
     <!-- Jssor Slider End -->
 
 
-
+<section>
 	<article class="forsidetekst"
 	<h1>Velkommen til Dykon</h1>
 	<h3>Dykon A/S er Nordens førende producent af naturfyldsdyner og puder.<br> 
@@ -42,7 +42,8 @@
 	</article>
 
 	<img class="aarets" src="images/aarets-virksomhed-2013.jpg">
-	</section>
+</section>
+
  <?php include 'includes/footer.php'; ?>
 	<!-- INSERT PLUGIN JAVASCRIPT HERE -->
     <script type="text/javascript" src="plugins/slider/js/jssor.js"></script>

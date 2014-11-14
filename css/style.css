@@ -93,7 +93,7 @@ main {
 	top: 0px; 
 	left: 0px; 
 	width: 800px;
-    height: 500px; 
+    height: 400px; 
 	overflow: hidden;
 	margin: auto;
 }
@@ -104,7 +104,7 @@ main {
 	left: 0px; 
 	top: 0px; 
 	width: 800px; 
-	height: 500px;
+	height: 400px;
     overflow: hidden;
 	margin:auto;
 }
@@ -113,7 +113,9 @@ main {
 /* Forside indhold */
 
 .aarets {
-	float: right;
+	display: inline;
+	margin-top: -80px;
+	margin-left: 800px;
 }
 
 
