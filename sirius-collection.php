@@ -12,7 +12,7 @@
 	<!------------------------------>
 	<section>
     
-    <h1>Partnere</h1>
+    <h1>Sirius Collection</h1>
 	</section>
  <?php include 'includes/footer.php'; ?>
 	<!-- INSERT PLUGIN JAVASCRIPT HERE -->
