@@ -1,131 +1,199 @@
+header	{
+	text-align: center;
+}
+
 body {
-	background-color:#FFF;
+	background-color:#fff;
 	color:#111;
 }
 a {
-	color: #f6f;
+	color: #00F;
 	text-decoration:none;
 }
 a:hover {
-	color:#0f0;
+	color:#39F;
+	color: #000;
+	text-decoration:none;
+}
+a:hover {
+	color:#333;
 }
 h1 {
-	font-size:3em;
-	font-family:inherit;
+	font-size: 36px;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight:normal;
-	color:#fff;
+	color:#000;
 	margin:0;
 	padding:0;
 	text-transform: uppercase;
 }
 h2 {
-	font-size:1em;
-	font-family:inherit;
+	font-size: 24px;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight:normal;
-	color:#f00;
+	color:#000;
 	margin:0;
 	padding:0;
-	text-decoration:underline;
+	text-decoration:none;
 }
 h3 {
-	font-size:1em;
-	font-family:inherit;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight:normal;
-	color:#f00;
+	color:#000;
 	margin:0;
 	padding:0;
 }
 h4 {
-	font-size:1em;
-	font-family:inherit;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight:normal;
-	color:#f00;
+	color:#000;
 	margin:0;
 	padding:0;
 }
 h5 {
-	font-size:1em;
-	font-family:inherit;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight:normal;
-	color:#f00;
+	color:#000;
 	margin:0;
 	padding:0;
 }
 h6 {
-	font-size:1em;
-	font-family:inherit;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight:normal;
-	color:#f00;
+	color:#000;
 	margin:0;
 	padding:0;
 }
 
-section.contact {
-    width: 800px;
-    height: 350px;
-    display: inline; 
-    float: left;
-    margin-left: 200px
+p {
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+main {
+	width:1000px;
+	margin:0 auto 0 auto;
+}
+@media screen and (max-width: 1050px){
+	main{
+		width:100%;
+	}
+}
+
+/**************************/
+/****** IMAGE SLIDER ******/
+/**************************/
+
+/* Kode til "nearby-image-partial-visible-slider" på forsiden (imageslideren er fra Github */
+#slider1_container { 
+	position:relative; 
+	top: 0px; 
+	left: 0px; 
+	width: 800px;
+    height: 500px; 
+	overflow: hidden;
+	margin: auto;
+}
+
+#slides { 
+	cursor: move; 
+	position: absolute; 
+	left: 0px; 
+	top: 0px; 
+	width: 800px; 
+	height: 500px;
+    overflow: hidden;
+	margin:auto;
+}
+/* Kode til imageslider slut */
+
+/* Forside indhold */
+
+.aarets {
+	float: right;
 }
 
 
-section.contact section {
-    display: inline; 
-    float: left;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
+
+
+/* Slut på forside indhold */
+footer {
+border-top: solid 1px #000;
+width: 1000px;	
+margin: auto;
 }
 
-section.contactus {
-    display: block;
-    width: 220px;
-    height: 350px; 
-    margin-top: 100px;
-    padding-left: 10px;
+.footerJobLink {
+float: right;
 }
 
-section.contactform {
-    display: block;
-    margin-top: 100px;
-    width: 220px;
-    height: 350px; 
-    padding-left: 10px;
+/*-------------------------------
+
+MENU MENU MENU MENU MENU MENU
+
+-------------------------------*/
+
+
+.menu-main {
+	width:100%;
+	position:relative;
+	margin: auto;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
 }
-section.googlemaps {
-    display: block;
-    margin-top: 100px;
-    width: 300px;
-    height: 350px; 
-    padding-left: 10px;
+.menu-main ul {
+	
+} 
+.menu-main ul li {
+	float: left;
+	position:relative;
+	width:25%;
+	box-sizing:border-box;
+	padding: 10px 0px 10px 0px;
+	border-left: solid 1px #999;
+} 
+
+.menu-main ul li nav {
+	display:none;
+	position:absolute;
+	z-index:500;
+	width:1000px;
+	background-color: #999;
 }
-#map_canvas {
-    width: 280px;
-    height: 300px;
-    margin-right: 10px; 
+.menu-main ul li:hover nav {
+	display:block;
+	background-color:#999;
+	height:auto;
+	width: 400%;
+	Margin: auto;
+	top: 38px;
+} 
+.menu-main ul li nav ul li {
+	display:inline-block;
+	float: left;
+	position:relative;
+	border-style: none;
+	padding: 6px 50px 6px 50px;
 }
-input.box {
-    float: right;
+.menu-sub {
+	
 }
-section.contact h2 {
-    text-decoration: none; 
-    color: black;
-    font-size: 16px;
-    font-family: Arial Black;
-    margin-top: 16px;
-    margin-right: 10px;
+.submenu-1 {
+	left:-0%;
+}
+.submenu-2 {
+	left:-100%;
+}
+.submenu-3 {
+	left:-200%;
+}
+.submenu-4 {
+	left:-300%;
 }
 
-section.contact p {
-    font-size: 14px;
-    margin-top: 6px;
-    font-family: Arial;
-    margin-right: 10px;
-}
-
-section.contactform p {
-    font-size: 12px;
-    margin-top: 7px;
-    font-family: Arial;
-    margin-right: 10px;
+.top-menu-4	{
+	border-right: solid 1px #999999;
 }
