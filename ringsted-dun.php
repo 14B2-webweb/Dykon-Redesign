@@ -4,7 +4,7 @@
 	
 	<!---------------------------------->
 	
-	<title>DYKON | What page is this</title><!-- Set page title -->
+	<title>DYKON | Ringsted Dun</title><!-- Set page title -->
 <?php include 'includes/header_inc.php'; ?>
 
 	<!------------------------------>
