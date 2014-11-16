@@ -12,7 +12,7 @@
 	<!------------------------------>
 	<section class="partnere">
     
-     <article class="text-box-ringsted">
+     <article class="text-box-undersider">
     	<h2>Ringsted Dun</h2>
    		<p> Det er vigtigt for alle mennesker at sove godt. De fleste af os har erfaret, at der er en direkte sammenhæng mellem kvaliteten af vores sengemiljø, og hvor udhvilet vi føler os, når vi vågner. </p>
         <p>Derfor bør du altid være meget kritisk, når du beslutter hvilken dyne og pude, du ønsker at tilbringe dine nætter sammen med.</p>

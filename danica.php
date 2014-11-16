@@ -12,10 +12,13 @@
 	<!------------------------------>
 	<section class="partnere">
     
-     <article class="text-box">
+     <article class="text-box-undersider">
     	<h2>Danica</h2>
-   		<p> Her hos Dykon er kun det bedste godt nok. Derfor er vi også utroligt kræsne med hvor vi for vores dun fra. </p>
-    	<p> Vi har samlet et hold af de bedste fjer- og dunproducenter på markedet for at kunne sørge for, at din nattesøvn bliver så behagelig som muligt</p>
+   		<p> Så kan det betale sig at købe en god dyne</p>
+		<p>Danica dunprodukter bygger på stolte danske traditioner, forankret i en suveræn hånd-
+værksmæssig forarbejdning og med forædlingen af dun i højsædet.</p>
+		<p>Danica er indbegrebet af dansk design og innovation og opfylder selv de strengeste krav til kvalitet - såvel for råvarer som for den produktmæssige finish. Med en dyne og pude fra Danica er du sikret et godt valg og en optimal sovekomfort. Danica tilfredsstiller enhver smag og er din garanti for bedre søvn.</p>
+		<p>Gå frisk og veludhvilet dagen i møde med Danica.</p>
     </article>
     
 	</section>

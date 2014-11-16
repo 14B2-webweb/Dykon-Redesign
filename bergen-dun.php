@@ -12,10 +12,20 @@
 	<!------------------------------>
 	<section class="partnere">
     
-     <article class="text-box">
+     <article class="text-box-undersider">
     	<h2>Bergen Dun</h2>
-   		<p> Her hos Dykon er kun det bedste godt nok. Derfor er vi også utroligt kræsne med hvor vi for vores dun fra. </p>
-    	<p> Vi har samlet et hold af de bedste fjer- og dunproducenter på markedet for at kunne sørge for, at din nattesøvn bliver så behagelig som muligt</p>
+   		<p> Bergen Dun har igennem årtier leveret dyner og puder til hovedsalig det norske marked.</p>
+		<p>Bergen Dun står for et bredt udvalg af dyner til norske forhold. Fra de gode traditionelle kanaldyner til de noget mere moderne kassettesyede varianter. </p>
+		<p>Bergen Dun er en totalleverandør af dundyner og puder under mærkerne: </p>
+        
+		<ul>
+        	<li>- Bergen Dun</li>
+        	<li>- Den Lille And</li>
+        	<li>- Den Lille Dynefabrikk </li>
+        	<li>- Ajungilak </li>
+        	<li>- Sirius Collection</li>
+        	<li>- Teddy</li>
+        </ul>
     </article>
     
 	</section>
