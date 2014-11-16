@@ -10,9 +10,9 @@
 	<!------------------------------>
 	<!-- INSERT PAGE CONTENT HERE -->
 	<!------------------------------>
-	<section>
-    <article>
-    <h1>Partnere</h1>
+	<section class="partnere">
+    <article class="text-box">
+    <h2>Partnere</h2>
     <p> Her hos Dykon er kun det bedste godt nok. Derfor er vi også utroligt kræsne med hvor vi for vores dun fra. </p>
     <p> Vi har samlet et hold af de bedste fjer- og dunproducenter på markedet for at kunne sørge for, at din nattesøvn bliver så behagelig som muligt</p>
     </article>
