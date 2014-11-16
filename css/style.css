@@ -99,7 +99,48 @@ main {
 		width:100%;
 	}
 }
+/**************************/
+/******** HEADER **********/
+/**************************/
 
+header .goose-logo {
+	position:relative;
+	float:left;
+	margin-right:25%;
+}
+header .dykon-logo {
+	display:inline-block;
+	position:relative;
+}
+header .header-right {
+	position:relative;
+	display:inline-block;
+	float:right;
+	width:25;
+}
+	header .header-right a {
+		color:#ccc;
+		font-family: 'arial';
+		float:right;
+		margin:5px;
+	}
+		header .header-right a:hover {
+			text-decoration:underline;
+			color:#999;
+		}
+header .header-search {
+	position:relative;
+	display:inline-block;
+	float:right;
+	width:80%;
+}
+	.search-bar {
+		float:left;
+		width:100%;
+		border-radius:10px;
+		padding-left:10px;
+		box-sizing:border-box;
+	}
 /**************************/
 /****** IMAGE SLIDER ******/
 /**************************/
