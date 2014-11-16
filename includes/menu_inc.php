@@ -1,6 +1,6 @@
 			<nav class="menu-main">
 				<ul>
-					<li class="top-menu-1"><a href="partnere.php">Produktinfo og Partnere</a>
+					<li class="top-menu-1"><a href="partnere.php">Partnere</a>
 						<nav class="submenu-1">
 							<ul class="menu-sub">
 								<li><a href="ringsted-dun.php">Ringsted Dun</a></li>
