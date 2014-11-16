@@ -1,15 +1,15 @@
 			<nav class="menu-main">
 				<ul>
-					<li class="top-menu-1"><a href="partnere.php">Partnere</a>
+					<li class="top-menu-1"><a href="partnere.php">Produktinfo og Partnere</a>
 						<nav class="submenu-1">
 							<ul class="menu-sub">
-								<li><a href="#">Ringsted Dun</a></li>
-								<li><a href="#">Flora Danica</a></li>
-								<li><a href="#">Danica</a></li>
-                                <li><a href="#">Sirius Collection</a></li>
-                                <li><a href="#">Egmo Dun</a></li>
-                                <li><a href="#">Bergen Dun</a></li>
-                                <li><a href="#">Private Label</a></li>
+								<li><a href="ringsted-dun.php">Ringsted Dun</a></li>
+								<li><a href="flora-danica.php">Flora Danica</a></li>
+								<li><a href="danica.php">Danica</a></li>
+                                <li><a href="sirius-collection.php">Sirius Collection</a></li>
+                                <li><a href="engmo-dun.php">Egmo Dun</a></li>
+                                <li><a href="bergen-dun.php">Bergen Dun</a></li>
+                                <li><a href="private-label.php">Private Label</a></li>
 							</ul>
 						</nav>
 					</li>
