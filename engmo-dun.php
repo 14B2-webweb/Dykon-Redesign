@@ -12,10 +12,12 @@
 	<!------------------------------>
 <section class="partnere">
     
-     <article class="text-box">
+     <article class="text-box-undersider">
     	<h2>Engmo Dun</h2>
-   		<p> Her hos Dykon er kun det bedste godt nok. Derfor er vi også utroligt kræsne med hvor vi for vores dun fra. </p>
-    	<p> Vi har samlet et hold af de bedste fjer- og dunproducenter på markedet for at kunne sørge for, at din nattesøvn bliver så behagelig som muligt</p>
+   		<p> Engmo Dun har produceret dundyner i mere end 50 år.<p>
+		<p>Engmo Dun er det ledende varemærke, indenfor dundyner og –puder fyldt med nordens fineste dun fra Scandinavien, i Sverige.</p>
+		<p>Virksomheden Engmo Dun blev i 1952 startet af Thomas Mortensen og senere var det sønnerne Per og Sten Mortensen der drev virksomheden. I dag er det Camilla Fredholm og Peter Bøgh Petersen som ejer virksomheden.</p>
+		<p>Engmo Dun har været Kongelig Hofleverandør i Sverige siden 1986. </p>
     </article>
     
 </section>

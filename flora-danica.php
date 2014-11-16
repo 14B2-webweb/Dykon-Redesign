@@ -12,10 +12,12 @@
 	<!------------------------------>
 	<section class="partnere">
     
-     <article class="text-box">
+     <article class="text-box-undersider">
     	<h2>Flora Danica</h2>
-   		<p> Her hos Dykon er kun det bedste godt nok. Derfor er vi også utroligt kræsne med hvor vi for vores dun fra. </p>
-    	<p> Vi har samlet et hold af de bedste fjer- og dunproducenter på markedet for at kunne sørge for, at din nattesøvn bliver så behagelig som muligt</p>
+   		<p> - Eksklusive danske dyner og puder. </p>
+        <p>Flora Danica er oprindeligt betegnelsen for Simon Paulis urtebog fra 1648. Dette smukke værk indeholder mange hundrede originale tegninger af lægeurter fra den danske flora. </p>
+		<p>Flora Danica er også navnet på det hånddekorerede spisestel fra Royal Copenhagen. </p>
+		<p>Flora Danica dynekonceptet bygger på traditionelt dansk håndværk og design og udtrykker noget af det mest danske, der findes. Det eksklusive dyne-/pudeprogram er udelukkende sammensat af naturens egne råvarer. </p>
     </article>
     
 	</section>

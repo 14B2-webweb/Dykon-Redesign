@@ -30,10 +30,20 @@
 	margin-top:60px;
 }
 
-.text-box-ringsted{
+.text-box-undersider{
 	background-color:rgba(255,255,255,1);
 	width:500px;
-	height:320px;
+	height:350px;
 	float:left;
 	margin-left:50px;
 	margin-top:60px;
+}
+	
+.text-box-undersider2{
+	background-color:rgba(255,255,255,1);
+	width:700px;
+	height:400px;
+	float:left;
+	margin-left:50px;
+	margin-top:60px;
+}
