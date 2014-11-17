@@ -102,6 +102,7 @@ main {
 /**************************/
 /******** HEADER **********/
 /**************************/
+<<<<<<< HEAD
 header{
 	text-align:center;
 }
@@ -114,13 +115,31 @@ header .dykon-logo {
 	display:inline-block;
 	margin-left:auto;
 	margin-right:auto;
+=======
+header {
+	text-align:center;
+}
+header .header-left {
+	position:relative;
+	float:left;
+	width:33%;
+}
+header .header-center {
+	display:inline-block;
+	position:relative;
+	width:33%;
+>>>>>>> master
 	
 }
 header .header-right {
 	position:relative;
 	display:inline-block;
 	float:right;
+<<<<<<< HEAD
 	width:25;
+=======
+	width:33%;
+>>>>>>> master
 }
 	header .header-right a {
 		color:#ccc;
@@ -204,7 +223,7 @@ MENU MENU MENU MENU MENU MENU
 .menu-main {
 	width:100%;
 	position:relative;
-	margin: auto;
+	margin: 5px auto 0 auto;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 1.2em;
 }
@@ -218,7 +237,13 @@ MENU MENU MENU MENU MENU MENU
 	box-sizing:border-box;
 	padding: 10px 0px 10px 0px;
 	border-left: solid 1px #999;
-} 
+}
+	.menu-main ul li a {
+		color:#333;
+	}
+		.menu-main ul li a:hover {
+			color:#aaa;
+		}
 
 .menu-main ul li nav {
 	display:none;
@@ -242,6 +267,12 @@ MENU MENU MENU MENU MENU MENU
 	border-style: none;
 	padding: 6px 50px 6px 50px;
 }
+	.menu-main ul li nav ul li a {
+		color:#fff;
+	}
+		.menu-main ul li nav ul li a:hover {
+			color:#222;
+		}
 .menu-sub {
 	
 }
