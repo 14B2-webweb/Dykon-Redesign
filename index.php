@@ -34,16 +34,15 @@
     <!-- Jssor Slider End -->
 
 
-		<section>
-			<article class="forsidetekst">
-			<h1>Velkommen til Dykon</h1>
-			<h3>Dykon A/S er Nordens førende producent af naturfyldsdyner og puder.<br> 
-			Vi producerer dyner og puder af høj kvalitet, som vi leverer til vores partnere.</h3>
-			</article>
+<section>
+	<article class="forsidetekst"
+	<h1>Velkommen til Dykon</h1>
+	<h3>Dykon A/S er Nordens førende producent af naturfyldsdyner og puder.<br> 
+	Vi producerer dyner og puder af høj kvalitet, som vi leverer til vores partnere.</h3>
+	</article>
 
-			<img class="aarets" src="images/aarets-virksomhed-2013.jpg">
-		</section>
-	</section>
+	<img class="aarets" src="images/aarets-virksomhed-2013.jpg">
+</section>
 
  <?php include 'includes/footer.php'; ?>
 	<!-- INSERT PLUGIN JAVASCRIPT HERE -->

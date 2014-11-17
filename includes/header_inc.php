@@ -4,6 +4,7 @@
 <body>
 	<main>
 		<header>
+<<<<<<< HEAD
 			<section class="header-left">
 				<a href="index.php"><img src="images/logo.png" alt="Dykon gås logo" class="goose-logo"></a>
 			</section>
@@ -17,6 +18,10 @@
 					<input type="text" name="input" placeholder="Search...." class="search-bar" />
 				</form>
 			</section>
+=======
+			<a href="index.php"><img src="img/logo.png" alt="Dykon gås logo"></a>
+			<a href="index.php"><img src="img/dykon.png" alt="Dykon logo"></a>
+>>>>>>> parent of c50e7bb... Merge branch 'master' of https://github.com/14B2-webweb/Dykon-Redesign
 <?php include 'includes/menu_inc.php'; ?>
 			
 		</header>

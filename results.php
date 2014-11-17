@@ -1,16 +1,24 @@
-<?php include 'includes/head_inc.php'; ?>
-	<!-- INSERT PLUGIN CSS FILES HERE -->
-	<!---------------------------------->
-	
-	<title>Dykon index med imageslider</title><!-- Set page title -->
-<?php include 'includes/header_inc.php'; ?>
-
-	<!------------------------------>
-	<!-- INSERT PAGE CONTENT HERE -->
-	<!------------------------------>
-	<section>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Boilerplate</title>
+	<link href="css/reset.css" type="text/css" rel="stylesheet">
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<main>
+		<header>
+			<?php include 'includes/menu_inc.php'; ?>
+		</header>
+		<section>
+			<h1>Search my Site!</h1>
+			<form action="./results.php" method="GEt">
+				<input type="text" name="input" size="50" placeholder="Search....." value="<?php echo $_GET ['input']; ?>" />
+				<input type="submit" value="search" />
+			</form>
+			<hr>
 	<?php
-		$input = $_GET['input'];
+		$input = $_GET['input'];//Note to self $input in the name of the search feild
 		$terms = explode(" ", $input);
 		$query = "SELECT * FROM search WHERE ";
 		
@@ -48,11 +56,12 @@
 		// disconnect
 		mysql_close();
 	?>
-	</section>
-
- <?php include 'includes/footer.php'; ?>
-	<!-- INSERT PLUGIN JAVASCRIPT HERE -->
-	<!----------------------------------->
+		</section>
+		<footer>
+		</footer>
+	</main>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="js/script.js" type="text/javascript"></script>
 </body>
 </html>
