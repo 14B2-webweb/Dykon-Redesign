@@ -37,8 +37,8 @@
 		<section>
 			<article class="forsidetekst">
 			<h1>Velkommen til Dykon</h1>
-			<h3>Dykon A/S er Nordens førende producent af naturfyldsdyner og puder.<br> 
-			Vi producerer dyner og puder af høj kvalitet, som vi leverer til vores partnere.</h3>
+			<p>Dykon A/S er Nordens førende producent af naturfyldsdyner og puder.<br> 
+			Vi producerer dyner og puder af høj kvalitet, som vi leverer til vores partnere.</p>
 			</article>
 
 			<img class="aarets" src="images/aarets-virksomhed-2013.jpg">
