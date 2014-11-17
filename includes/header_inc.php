@@ -4,8 +4,6 @@
 <body>
 	<main>
 		<header>
-			<a href="index.php"><img src="images/logo.png" alt="Dykon gås logo" class="goose-logo"></a>
-			<a href="index.php"><img src="images/dykon.png" alt="Dykon logo" class="dykon-logo"></a>
 			<section class="header-left">
 				<a href="index.php"><img src="images/logo.png" alt="Dykon gås logo" class="goose-logo"></a>
 			</section>
