@@ -119,6 +119,7 @@ header .header-center {
 	
 }
 header .header-right {
+	margin-top:10px;
 	position:relative;
 	display:inline-block;
 	float:right;
@@ -180,6 +181,7 @@ header .header-search {
 	display: inline;
 	margin-top: -135px;
 	margin-left: 800px;
+	margin-bottom:0px;
 }
 
 
