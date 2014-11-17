@@ -139,11 +139,11 @@ header .header-search {
 	position:relative;
 	display:inline-block;
 	float:right;
-	width:80%;
+	width:100%;
 }
 	.search-bar {
-		float:left;
-		width:100%;
+		float:right;
+		width:50%;
 		border-radius:10px;
 		padding-left:10px;
 		box-sizing:border-box;
