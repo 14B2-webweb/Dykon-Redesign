@@ -34,9 +34,9 @@
 					<li class="top-menu-4"><a href="#">Om Dykon</a>
 						<nav class="submenu-4">
 							<ul class="menu-sub">
-								<li><a href="#">Partnere</a></li>
-								<li><a href="#">Kontakt</a></li>
-								<li><a href="#">Nyheder</a></li>
+								<li><a href="#">Produktinfo</a></li>
+								<li><a href="#">Historie</a></li>
+								<li><a href="#">FAQ</a></li>
 							</ul>
 						</nav>
 					</li>
