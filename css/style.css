@@ -94,13 +94,10 @@ ul{
 }
 
 main {
-	width:1000px;
+	min-width:500px;
+	max-width:1000px;
+	width:100%;
 	margin:0 auto 0 auto;
-}
-@media screen and (max-width: 1050px){
-	main{
-		width:100%;
-	}
 }
 /**************************/
 /******** HEADER **********/
@@ -192,7 +189,7 @@ header .header-search {
 footer {
 border-top: solid 1px #000;
 padding-top:15px;
-width: 1000px;	
+width: 100%;	
 margin: auto;
 }
 
