@@ -108,6 +108,7 @@ header {
 header .header-left {
 	position:relative;
 	float:left;
+	text-align: left;
 	width:33%;
 }
 header .header-center {
