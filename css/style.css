@@ -1,7 +1,6 @@
 header	{
 	text-align: center;
 }
-
 body {
 	background-color:#fff;
 	color:#111;
@@ -22,19 +21,24 @@ h1 {
 	font-size: 36px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight:normal;
-	color:#000;
+	color:#333;
 	margin:0;
-	padding:0;
+	padding-left:20px;
+	padding-top:20px;
+	padding-bottom:10px;
 	text-transform: uppercase;
 }
 h2 {
-	font-size: 24px;
+	font-size: 30px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight:normal;
-	color:#000;
+	color:#333;
 	margin:0;
-	padding:0;
+	padding-left:20px;
+	padding-top:20px;
+	padding-bottom:10px;
 	text-decoration:none;
+	line-height:normal;
 }
 h3 {
 	font-size: 18px;
@@ -71,6 +75,22 @@ h6 {
 
 p {
 	font-family:Arial, Helvetica, sans-serif;
+	color:#sss;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:10px;
+	line-height:normal;
+	color: #000;
+}
+
+ul{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#939393;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:10px;
+	line-height:normal;
+
 }
 
 main {
@@ -82,7 +102,53 @@ main {
 		width:100%;
 	}
 }
-
+/**************************/
+/******** HEADER **********/
+/**************************/
+header {
+	text-align:center;
+}
+header .header-left {
+	position:relative;
+	float:left;
+	width:33%;
+}
+header .header-center {
+	display:inline-block;
+	position:relative;
+	width:33%;
+	
+}
+header .header-right {
+	margin-top:10px;
+	position:relative;
+	display:inline-block;
+	float:right;
+	width:33%;
+}
+	header .header-right a {
+		color:#ccc;
+		font-family: 'arial';
+		float:right;
+		margin:5px;
+	}
+		header .header-right a:hover {
+			text-decoration:underline;
+			color:#999;
+		}
+header .header-search {
+	position:relative;
+	display:inline-block;
+	float:right;
+	width:100%;
+}
+	.search-bar {
+		float:right;
+		width:50%;
+		border-radius:10px;
+		padding-left:10px;
+		box-sizing:border-box;
+	}
 /**************************/
 /****** IMAGE SLIDER ******/
 /**************************/
@@ -93,9 +159,9 @@ main {
 	top: 0px; 
 	left: 0px; 
 	width: 800px;
-    height: 500px; 
+    height: 400px; 
 	overflow: hidden;
-	margin: auto;
+	margin: 50px auto 0 auto;
 }
 
 #slides { 
@@ -104,7 +170,7 @@ main {
 	left: 0px; 
 	top: 0px; 
 	width: 800px; 
-	height: 500px;
+	height: 400px;
     overflow: hidden;
 	margin:auto;
 }
@@ -113,7 +179,10 @@ main {
 /* Forside indhold */
 
 .aarets {
-	float: right;
+	display: inline;
+	margin-top: -135px;
+	margin-left: 800px;
+	margin-bottom:0px;
 }
 
 
@@ -122,12 +191,24 @@ main {
 /* Slut på forside indhold */
 footer {
 border-top: solid 1px #000;
+padding-top:15px;
 width: 1000px;	
 margin: auto;
 }
 
 .footerJobLink {
 float: right;
+}
+
+footer p{
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	color:#333;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:10px;
+	line-height:normal;
 }
 
 /*-------------------------------
@@ -140,12 +221,12 @@ MENU MENU MENU MENU MENU MENU
 .menu-main {
 	width:100%;
 	position:relative;
-	margin: auto;
+	margin: 5px auto 0 auto;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 1.2em;
 }
 .menu-main ul {
-	
+	padding:0;
 } 
 .menu-main ul li {
 	float: left;
@@ -154,7 +235,13 @@ MENU MENU MENU MENU MENU MENU
 	box-sizing:border-box;
 	padding: 10px 0px 10px 0px;
 	border-left: solid 1px #999;
-} 
+}
+	.menu-main ul li a {
+		color:#333;
+	}
+		.menu-main ul li a:hover {
+			color:#aaa;
+		}
 
 .menu-main ul li nav {
 	display:none;
@@ -178,6 +265,12 @@ MENU MENU MENU MENU MENU MENU
 	border-style: none;
 	padding: 6px 50px 6px 50px;
 }
+	.menu-main ul li nav ul li a {
+		color:#fff;
+	}
+		.menu-main ul li nav ul li a:hover {
+			color:#222;
+		}
 .menu-sub {
 	
 }

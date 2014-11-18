@@ -16,7 +16,9 @@
                     $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
                     $AutoCenter: 2,                                 //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
                     $Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
-                }
+                },
+				$SlideDuration: 700
+	//[Optional] Ajust speed of slider
             };
 
             var jssor_slider1 = new $JssorSlider$("slider1_container", options);
@@ -26,7 +28,7 @@
             function ScaleSlider() {
                 var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
                 if (parentWidth)
-                    jssor_slider1.$ScaleWidth(Math.min(parentWidth, 800));
+                    jssor_slider1.$ScaleWidth(Math.min(parentWidth, 1000));
                 else
                     window.setTimeout(ScaleSlider, 30);
             }
