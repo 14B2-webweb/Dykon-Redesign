@@ -80,6 +80,7 @@ p {
 	padding-right:20px;
 	padding-bottom:10px;
 	line-height:normal;
+	color: #000;
 }
 
 ul{
@@ -160,7 +161,7 @@ header .header-search {
 	width: 800px;
     height: 400px; 
 	overflow: hidden;
-	margin: auto;
+	margin: 50px auto 0 auto;
 }
 
 #slides { 
