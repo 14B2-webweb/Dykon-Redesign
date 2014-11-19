@@ -36,8 +36,8 @@
 				$description = $row['description'];
 				$keywords = $row['keywords'];
 				$link = $row['link'];
-				echo "<h2><a href='$link'>$title</a></h2>
-				$description<br /><br />";
+				echo "<h2 class='result-title'><a href='$link'>$title</a></h2>
+				<p class='result-description'>$description</p>";
 
 			}
 			
