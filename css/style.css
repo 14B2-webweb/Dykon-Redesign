@@ -288,6 +288,16 @@ MENU MENU MENU MENU MENU MENU
 }
 
 
+/*********************/
+/***** Results *******/
+/*********************/
+
+.result-title {
+	margin-top:25px;
+}
+.result-title a {
+	padding:0;
+}
 
 /*---------------contact----------------*/
 
