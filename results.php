@@ -2,7 +2,7 @@
 	<!-- INSERT PLUGIN CSS FILES HERE -->
 	<!---------------------------------->
 	
-	<title>Dykon index med imageslider</title><!-- Set page title -->
+	<title>Dykon | Søgeresultater</title><!-- Set page title -->
 <?php include 'includes/header_inc.php'; ?>
 
 	<!------------------------------>
