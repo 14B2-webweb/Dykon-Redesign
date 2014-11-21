@@ -13,7 +13,7 @@
 							</ul>
 						</nav>
 					</li>
-					<li class="top-menu-2"><a href="#">Kontakt</a>
+					<li class="top-menu-2"><a href="contact.php">Kontakt</a>
 						<nav class="submenu-2">
 							<ul class="menu-sub">
 								<li><a href="#">Job i Dykon</a></li>

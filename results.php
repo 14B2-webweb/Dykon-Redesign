@@ -9,6 +9,7 @@
 	<!-- INSERT PAGE CONTENT HERE -->
 	<!------------------------------>
 	<section>
+		<h2>Søgeresultater</h2>
 	<?php
 		$input = $_GET['input'];
 		$terms = explode(" ", $input);
@@ -36,8 +37,9 @@
 				$description = $row['description'];
 				$keywords = $row['keywords'];
 				$link = $row['link'];
-				echo "<h2><a href='$link'>$title</a></h2>
-				$description<br /><br />";
+				echo "<hr><h2 class='result-title'><a href='$link'>$title</a></h2>
+				<p class='result-description'>$description</p>
+				<p class='result-link'><a href='$link'>http://dykon.gunnyarts.com/$link</a></p>";
 
 			}
 			

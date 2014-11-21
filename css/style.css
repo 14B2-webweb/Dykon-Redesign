@@ -28,7 +28,7 @@ h1 {
 	padding-bottom:10px;
 	text-transform: uppercase;
 }
-h2 {
+h2, h2 a {
 	font-size: 30px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight:normal;
@@ -253,8 +253,10 @@ MENU MENU MENU MENU MENU MENU
 	background-color:#999;
 	height:auto;
 	width: 400%;
-	Margin: auto;
-	top: 44px;
+	Margin: 0 auto 0 auto;
+	top: 40px;
+	/* left: -1px; */
+	/* padding-right: 4px; */
 } 
 .menu-main ul li nav ul li {
 	display:inline-block;
@@ -275,21 +277,33 @@ MENU MENU MENU MENU MENU MENU
 	
 }
 .submenu-1 {
-	left:-0%;
-	left:-5px;
+	left: -1px;
 	
+	padding-right: 4px;
 }
 .submenu-2 {
-	left:-100%;
-	left:-6px;
+	left: -100.5%;
+	padding-right: 1.5%;
 }
 .submenu-3 {
 	left:-200%;
 }
 .submenu-4 {
-	left:-300%;
+	left: -302.5%;
+	padding-right: 3%;
 }
 
 .top-menu-4	{
 	border-right: solid 1px #999999;
+}
+
+/*********************/
+/***** Results *******/
+/*********************/
+
+.result-title {
+	margin-top:25px;
+}
+.result-title a {
+	padding:0;
 }
