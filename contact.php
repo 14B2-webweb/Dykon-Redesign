@@ -59,8 +59,9 @@
             
             <textarea name="cf_message" rows="10" cols="44"></textarea><br>
                 
-            <input class="textbox" type="submit" value="Send"/>
-            <input class="textbox" type="reset" value="Slet"/>
+            <input class="button" type="submit" value="Send"/>
+            <input class="button" type="reset" value="Slet"/>
+            </form>
             </section>
                 
             <section class="googlemaps">
