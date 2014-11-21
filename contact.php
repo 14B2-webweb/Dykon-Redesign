@@ -60,8 +60,8 @@
             <br><p class="contactform">Besked</p>
             <textarea class="box" name="cf_message" rows="10" cols="38"></textarea><br>
                 
-            <input type="submit" value="Send"/>
-            <input type="reset" value="Slet"/>
+            <input class="button" type="submit" value="Send"/>
+            <input class="button" type="reset" value="Slet"/>
             </form>
             </section>
                 
